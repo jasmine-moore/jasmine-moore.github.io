@@ -32,7 +32,7 @@ header {
     position: absolute;
     bottom: 20px;
     right: 20px;
-    background-color: black;
+    background-color: transparent;
     padding-left: 20px;
     padding-right: 20px;
 }
@@ -84,12 +84,12 @@ main {
     background-color: #F0E4E4;
     text-align: justify;
     padding: 12px; 
-    margin: 24px;
+    margin: 12px;
 }
 
 
 h2 {
-    text-align: center;
+    text-align: left;
 }
 
 img {                                                                                                                                                                                                                                                                                                                                                                                    
@@ -98,15 +98,18 @@ img {
 }
 
 .profileimage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     width: 100px;
     height: 200px;
+    border-radius: 8px;
 }
-
-
 
 footer {
     color: white;
     text-align: center;
+    font-size: .5em ;
 }
 
 
@@ -140,11 +143,12 @@ footer {
 @media (min-width: 1100px) {
     .image1 {
         width: 1200px;
-        height: 400px;
+        height: 200px;
     }
 
     .item {
         width: 50%;
     }
+
 }
 
