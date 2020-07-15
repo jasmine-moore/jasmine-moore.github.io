@@ -15,6 +15,7 @@ body {
 
 header {
     background-color: black;
+    font-family: 'Varta', sans-serif;
     color: whitesmoke;
     text-align: justify;
     font-size: 14px;
@@ -29,7 +30,7 @@ header {
 
 main {
     background-color: black;
-    font-family: sans-serif;
+    font-family: 'Varta', sans-serif;
     font-size: 12px;
     text-align: justify;
     padding: 12px;
@@ -44,15 +45,8 @@ main {
     margin: 24px;
 }
 
-h4 { 
-    font-family: 'Qwigley', cursive;
-    font-size: 14px;
-    text-align: center
-}
 
 h2 {
-    font-family: 'Qwigley', cursive;
-    font-size: 36px;
     text-align: center;
 }
 
