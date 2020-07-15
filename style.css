@@ -24,6 +24,19 @@ header {
 
 }
 
+.container {
+    position: relative;
+}
+
+.text-block {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
 .image1 {
     display:block;
     width: 100%;
@@ -32,16 +45,16 @@ header {
 
 
 .btngroup button{
-    background-color: darkgray;
+    background-color: black;
     border: 1px black;
     color: white;
-    padding: 4px 24px;
+    padding: 4px 18px;
     cursor: pointer;
     float: left;
 }
 
 .btngroup button:not(:last-child) {
-    border-right: none; \* prevent double borders */
+    border-right: none; 
 }
 
 .btngroup:after {
@@ -78,7 +91,8 @@ main {
 h2 {
     text-align: center;
 }
-{                                                                                                                                                                                                                                                                                                                                                                                    
+
+img {                                                                                                                                                                                                                                                                                                                                                                                    
     display: block;
     max-width: 100%;;
 }
@@ -96,10 +110,6 @@ footer {
 }
 
 
-.image3 {
-    margin: 0 auto;
-}
-
 @media (min-width: 768px) {
     .container {
         display: flex;
@@ -107,6 +117,13 @@ footer {
         justify-content: space-evenly
     }
 
+    main {
+        display:flex;
+    }
+    
+    .item {
+        width: 50%;
+    }
 
     .intro {
         display: flex;
@@ -118,29 +135,12 @@ footer {
     
 } 
 
-
+}
 
 @media (min-width: 1100px) {
     .image1 {
         width: 1200px;
         height: 400px;
-    }
-
-    .container {
-        position: relative;
-    }
-
-    .text-block {
-        position: absolute;
-        bottom: 20px;
-        right: 20px;
-        background-color: black;
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-
-    main {
-        display: flex;
     }
 
     .item {
